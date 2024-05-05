@@ -40,7 +40,7 @@ function TabOptions({state, setState}:TabOptionsProps){
                 <div className="dining-delivery-nightlife-container" style={{display:"flex",alignItems:"center"}}>
                     <div className="dining-icon-container" style={{width:"200px"}}>
                         <div className="dining-out-icon-wrap" style={{display:"flex",padding:"8px",marginLeft:"10px",alignItems:"center", cursor:"pointer"}} onClick={()=>setState("Dining Out")}>
-                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer",background:`${state==="Dining Out" ? "#E5F3F3" : ""}`}}>
+                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer",background:`${state==="Dining Out" ? "#E5F3F3" : ""}`,height:"50px",width:"50px",display:"flex",alignItems:"center",justifyContent:"center",borderRadius:"50%"}}>
 
                                 {state==="Dining Out" ? <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png?output-format=webp" style={{width:"30px"}} alt="dining-out-icon" className="dining-out-icon"/>
                                                     : <img src="https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png" style ={{width:"30px"}} alt="delivery-icon" className="delivery-icon"/>
@@ -55,7 +55,7 @@ function TabOptions({state, setState}:TabOptionsProps){
 
                     <div className="delivery-icon-container"  style={{width:"200px"}}>
                         <div className="delivery-icon-wrap" style={{display:"flex",padding:"8px",marginLeft:"10px",alignItems:"center",cursor:"pointer"}} onClick={()=>setState("Delivery")}>
-                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer"}}>
+                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer",background:`${state==="Delivery" ? "#FCEEC0" : ""}`,display:"flex",alignItems:"center",justifyContent:"center", height:"50px",width:"50px",borderRadius:"50%"}}>
                                 {state==="Delivery" ? <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png" style ={{width:"30px"}} alt="delivery-icon" className="delivery-icon"/>
                                                     : <img src="https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png" style ={{width:"30px"}} alt="delivery-icon" className="delivery-icon"/>
                                 }
@@ -69,7 +69,7 @@ function TabOptions({state, setState}:TabOptionsProps){
 
                     <div className="nightlife-icon-container"  style={{width:"200px"}}>
                         <div className="nightlife-icon-wrap" style={{display:"flex",padding:"8px",marginLeft:"10px",alignItems:"center",cursor:"pointer"}} onClick={()=>setState("Nightlife")}>
-                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer"}}>
+                            <div className="icon-container" style={{marginRight:"9px",cursor:"pointer",background:`${state==="Nightlife" ? "#EDF4FF" : ""}`,display:"flex",alignItems:"center",justifyContent:"center", height:"50px",width:"50px",borderRadius:"50%"}}>
                                 {state === "Nightlife" ? <img src="https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="nightlife-icon" style={{width:"30px"}} className="nightlife-icon"/>
                                                         : <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png" alt="nightlife-icon" style={{width:"30px"}} className="nightlife-icon"/>
                                 }
