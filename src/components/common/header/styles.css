@@ -85,3 +85,29 @@
 .profile-login-logout-container{
     display: flex;
 }
+
+.login-wrapper{
+
+}
+
+.login-btn{
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    border-radius: 6px;
+    border: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+.signup-btn{
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    border-radius: 6px;
+    border: none;
+    padding: 0.8rem;
+    background: none;
+}

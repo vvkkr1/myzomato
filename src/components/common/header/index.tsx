@@ -44,8 +44,8 @@ function Header() {
                         <button className = "login-btn">Log in</button>
                     </div>
 
-                    <div className="logout-wrapper">
-                        <button className="logout-btn">Log out</button>
+                    <div className="signup-wrapper">
+                        <button className="signup-btn">Sign up</button>
                     </div>
                 </div>
             </div>
